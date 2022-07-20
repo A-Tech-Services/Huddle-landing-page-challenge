@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headingcontainer{
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(/image/bg-hero-desktop.svg);
+    max-width: 100%;
+    height: 55em;
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.navbarhead{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarhead .logo{
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+ .navbarhead .logo img{
+    width: 200px;
+}
+
+.navbarhead button{
+    width: 15em;
+    padding: 20px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.233);
+    cursor: pointer;
+} 
+
+.mainhead{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainhead .text{
+    margin-top: 190px;     
+}
+
+.mainhead .text h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.mainhead .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.mainhead .text #gsff{
+    width: 25em;
+    height: 5em;
+    padding: 20px;
+    border: none;
+    margin-top: 50px;
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0 10px 20px hsla(322, 100%, 66%, 0.521);
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+.mainhead .text #gsff:hover{
+    background-color: hsl(322, 59%, 47%);
+}
+
+.mainhead .rimg{
+    margin-top: 70px;
+    margin-right: 60px;
+    
+}
+.mainhead .rimg img{
+    width: 50em;
+    height: 38em;
+}
+
+
+
+.bcontent{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bcontent .img{
+    margin-top: 70px;
+    margin-right: 60px;
+}
+
+.bcontent .img{
+    width: 50em;
+    height: 28em;
+}
